@@ -16,7 +16,8 @@ public class Test {
         System.out.println("OpenCV " + Core.VERSION);
         Mat m = loadImage("C:\\cada\\productsImages\\front_de.jpg");
         System.out.println("OpenCV Mat: " + m);
-        DataAugmentationRmBg.extractForeground(m, "C:\\cada\\productsImages\\result3.jpg");
+        //DataAugmentationRmBg.extractForeground(m, "C:\\cada\\productsImages\\test1.jpg");
+        rmBg2.extractForeground(m, "C:\\cada\\productsImages\\d.jpg");
         //System.out.println("OpenCV Mat data:\n" + m.dump());
     }
 }
